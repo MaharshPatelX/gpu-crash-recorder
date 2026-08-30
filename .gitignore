@@ -1,0 +1,14 @@
+/target/
+/.cargo-home/
+/.env
+/dist/*.exe
+/dist/*.zip
+/Sessions/
+*.dmp
+*.etl
+*.sqlite
+*.recording/
+*.sqlite-wal
+*.sqlite-shm
+Thumbs.db
+.DS_Store

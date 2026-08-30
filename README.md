@@ -94,7 +94,11 @@ cargo check --all-targets
 - The recorder collects existing crash dumps but does not change the global WER `LocalDumps` policy.
 - Low-level PCIe state not exposed by ADLX or Windows is inferred from WHEA and device/event evidence; no kernel driver is installed.
 
-See [plan.md](plan.md) for the detailed architecture, [CONTRIBUTING.md](CONTRIBUTING.md) for development guidance, and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for bundled components.
+See [plan.md](plan.md) for the detailed architecture and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for bundled components.
+
+## Contribution policy
+
+This repository is published for transparency and downloads, but it is not accepting pull requests, Issues, or feature requests. Security vulnerabilities can still be reported privately as described in [SECURITY.md](SECURITY.md).
 
 ## License
 
